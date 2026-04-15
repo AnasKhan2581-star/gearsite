@@ -158,10 +158,10 @@
     height: 44px;
     object-fit: contain;
     border-radius: 6px;
-    background: #222224;
+    background: #ffffff; /* White bg for Amazon images */
+    padding: 2px;
     flex-shrink: 0;
   }
-  .thumb-text {}
   .thumb-brand { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); }
   .thumb-name { font-size: 12px; font-weight: 600; color: var(--text); line-height: 1.25; max-width: 130px; }
 
@@ -189,8 +189,7 @@
   .basket-detail { display: none; border-top: 1px solid var(--border); }
   .basket.expanded .basket-detail { display: block; }
 
-  /* 4-column detail grid: lights | camera | lens 1 | lens 2 | gimbal */
-  /* We use a flexible layout: lights col, camera col, lenses col (stacked), gimbal col */
+  /* 4-column detail grid */
   .detail-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -229,7 +228,7 @@
   .prod-img-wrap {
     width: 100%;
     height: 130px;
-    background: #1a1a1c;
+    background: #ffffff; /* White bg for Amazon images */
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -242,7 +241,6 @@
     max-width: 90%;
     max-height: 110px;
     object-fit: contain;
-    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
   }
   .lens-half .prod-img-wrap { height: 100px; }
 
@@ -341,7 +339,6 @@
     margin-bottom: 8px;
   }
   .guide-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 1px; }
-  .guide-text {}
   .guide-title { font-weight: 600; font-size: 13.5px; margin-bottom: 3px; }
   .guide-desc { color: var(--muted); font-size: 12.5px; line-height: 1.5; }
   .guide-desc strong { color: var(--gold-light); }
@@ -393,23 +390,23 @@
     <div class="basket-num">01</div>
     <div class="thumb-strip">
       <div class="thumb-item">
-        <img class="thumb-img" src="https://godox.com/static/upload/image/20210609/1623204910332851.png" alt="Godox SL100D" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Light'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61bW65wNlOL._AC_SX679_.jpg" alt="Godox SL100D">
         <div class="thumb-text"><div class="thumb-brand">Godox ×2</div><div class="thumb-name">SL100D LED + 90cm Octa</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://sony.scene7.com/is/image/sonyglobalsolutions/ILCE-6700_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony a6700" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Camera'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/81I35pSIT6L._AC_SX679_.jpg" alt="Sony a6700">
         <div class="thumb-text"><div class="thumb-brand">Sony</div><div class="thumb-name">a6700 Body</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://www.sigma-global.com/wp-content/uploads/2021/10/18-50_f28_dc_dn_c021_se_product_01-1.jpg" alt="Sigma 18-50" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Lens1'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61K5QeH1LHL._AC_SX679_.jpg" alt="Sigma 18-50">
         <div class="thumb-text"><div class="thumb-brand">Sigma</div><div class="thumb-name">18-50mm f/2.8</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://sony.scene7.com/is/image/sonyglobalsolutions/SEL18135_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony 18-135" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Lens2'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/81Wn2e6uE7L._AC_SX679_.jpg" alt="Sony 18-135">
         <div class="thumb-text"><div class="thumb-brand">Sony</div><div class="thumb-name">18-135mm f/3.5-5.6</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://stormsend1.djicdn.com/stormsend/uploads/d3d0cf3c-5895-4eb8-b995-756608ec3964/cv3.png" alt="DJI RS3 Mini" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Gimbal'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61qH+9qV0wL._AC_SX679_.jpg" alt="DJI RS3 Mini">
         <div class="thumb-text"><div class="thumb-brand">DJI</div><div class="thumb-name">RS 3 Mini</div></div>
       </div>
     </div>
@@ -427,7 +424,7 @@
       <div class="detail-col">
         <div class="detail-cat">💡 Studio Lights</div>
         <div class="prod-img-wrap">
-          <img src="https://godox.com/static/upload/image/20210609/1623204910332851.png" alt="Godox SL100D" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/61bW65wNlOL._AC_SX679_.jpg" alt="Godox SL100D">
         </div>
         <div class="prod-name">2× Godox SL100D LED<span class="badge">Video-First</span></div>
         <div class="prod-price">~₹28,000 (2 units + 2× 90cm Octa Softbox + Stands)</div>
@@ -449,7 +446,7 @@
       <div class="detail-col">
         <div class="detail-cat">📷 Camera</div>
         <div class="prod-img-wrap">
-          <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/ILCE-6700_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony a6700" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/81I35pSIT6L._AC_SX679_.jpg" alt="Sony a6700">
         </div>
         <div class="prod-name">Sony a6700 Body Only<span class="badge">Best APS-C</span></div>
         <div class="prod-price">~₹1,21,000</div>
@@ -473,7 +470,7 @@
         <div class="lens-half">
           <div class="detail-cat">🔭 Lens 1 — Studio & Portrait</div>
           <div class="prod-img-wrap">
-            <img src="https://www.sigma-global.com/wp-content/uploads/2021/10/18-50_f28_dc_dn_c021_se_product_01-1.jpg" alt="Sigma 18-50mm f2.8" onerror="this.style.display='none'">
+            <img src="https://m.media-amazon.com/images/I/61K5QeH1LHL._AC_SX679_.jpg" alt="Sigma 18-50mm f2.8">
           </div>
           <div class="prod-name">Sigma 18-50mm f/2.8 DC DN</div>
           <div class="prod-price">~₹35,000</div>
@@ -493,7 +490,7 @@
         <div class="lens-half">
           <div class="detail-cat">🌿 Lens 2 — Travel & Nature</div>
           <div class="prod-img-wrap">
-            <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/SEL18135_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony 18-135mm" onerror="this.style.display='none'">
+            <img src="https://m.media-amazon.com/images/I/81Wn2e6uE7L._AC_SX679_.jpg" alt="Sony 18-135mm">
           </div>
           <div class="prod-name">Sony E 18-135mm f/3.5-5.6 OSS</div>
           <div class="prod-price">~₹32,000–₹44,000</div>
@@ -515,7 +512,7 @@
       <div class="detail-col">
         <div class="detail-cat">🎬 Gimbal</div>
         <div class="prod-img-wrap">
-          <img src="https://stormsend1.djicdn.com/stormsend/uploads/d3d0cf3c-5895-4eb8-b995-756608ec3964/cv3.png" alt="DJI RS3 Mini" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/61qH+9qV0wL._AC_SX679_.jpg" alt="DJI RS3 Mini">
         </div>
         <div class="prod-name">DJI RS 3 Mini</div>
         <div class="prod-price">~₹26,000</div>
@@ -552,19 +549,19 @@
     <div class="basket-num">02</div>
     <div class="thumb-strip">
       <div class="thumb-item">
-        <img class="thumb-img" src="https://godox.com/static/upload/image/20220610/1654848386121406.png" alt="Godox SK400II" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Light'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61-X8Hl1KxL._AC_SX679_.jpg" alt="Godox SK400II">
         <div class="thumb-text"><div class="thumb-brand">Godox</div><div class="thumb-name">SK400II-V Kit (2×)</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://sony.scene7.com/is/image/sonyglobalsolutions/ILCE-6700_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony a6700" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Camera'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/81I35pSIT6L._AC_SX679_.jpg" alt="Sony a6700">
         <div class="thumb-text"><div class="thumb-brand">Sony</div><div class="thumb-name">a6700 + 18-135mm Kit</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://www.sigma-global.com/wp-content/uploads/2021/10/18-50_f28_dc_dn_c021_se_product_01-1.jpg" alt="Sigma 18-50" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Lens'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61K5QeH1LHL._AC_SX679_.jpg" alt="Sigma 18-50">
         <div class="thumb-text"><div class="thumb-brand">Sigma</div><div class="thumb-name">18-50mm f/2.8 add-on</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://stormsend1.djicdn.com/stormsend/uploads/d3d0cf3c-5895-4eb8-b995-756608ec3964/cv3.png" alt="DJI RS3 Mini" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Gimbal'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61qH+9qV0wL._AC_SX679_.jpg" alt="DJI RS3 Mini">
         <div class="thumb-text"><div class="thumb-brand">DJI</div><div class="thumb-name">RS 3 Mini</div></div>
       </div>
     </div>
@@ -581,7 +578,7 @@
       <div class="detail-col">
         <div class="detail-cat">💡 Studio Lights</div>
         <div class="prod-img-wrap">
-          <img src="https://godox.com/static/upload/image/20220610/1654848386121406.png" alt="Godox SK400II-V" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/61-X8Hl1KxL._AC_SX679_.jpg" alt="Godox SK400II-V">
         </div>
         <div class="prod-name">Godox SK400II-V 2-Light Kit</div>
         <div class="prod-price">~₹38,000 (kit + 2nd softbox)</div>
@@ -600,7 +597,7 @@
       <div class="detail-col">
         <div class="detail-cat">📷 Camera</div>
         <div class="prod-img-wrap">
-          <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/ILCE-6700_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony a6700" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/81I35pSIT6L._AC_SX679_.jpg" alt="Sony a6700">
         </div>
         <div class="prod-name">Sony a6700 + 18-135mm Kit</div>
         <div class="prod-price">~₹1,46,000</div>
@@ -618,7 +615,7 @@
         <div class="lens-half">
           <div class="detail-cat">🔭 Lens 1 (in kit)</div>
           <div class="prod-img-wrap">
-            <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/SEL18135_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony 18-135" onerror="this.style.display='none'">
+            <img src="https://m.media-amazon.com/images/I/81Wn2e6uE7L._AC_SX679_.jpg" alt="Sony 18-135">
           </div>
           <div class="prod-name">Sony 18-135mm f/3.5-5.6 OSS</div>
           <div class="prod-price">Included in a6700 kit</div>
@@ -631,7 +628,7 @@
         <div class="lens-half">
           <div class="detail-cat">🔭 Lens 2 (add-on)</div>
           <div class="prod-img-wrap">
-            <img src="https://www.sigma-global.com/wp-content/uploads/2021/10/18-50_f28_dc_dn_c021_se_product_01-1.jpg" alt="Sigma 18-50" onerror="this.style.display='none'">
+            <img src="https://m.media-amazon.com/images/I/61K5QeH1LHL._AC_SX679_.jpg" alt="Sigma 18-50">
           </div>
           <div class="prod-name">Sigma 18-50mm f/2.8</div>
           <div class="prod-price">~₹35,000 (separate buy)</div>
@@ -645,7 +642,7 @@
       <div class="detail-col">
         <div class="detail-cat">🎬 Gimbal</div>
         <div class="prod-img-wrap">
-          <img src="https://stormsend1.djicdn.com/stormsend/uploads/d3d0cf3c-5895-4eb8-b995-756608ec3964/cv3.png" alt="DJI RS3 Mini" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/61qH+9qV0wL._AC_SX679_.jpg" alt="DJI RS3 Mini">
         </div>
         <div class="prod-name">DJI RS 3 Mini</div>
         <div class="prod-price">~₹26,000</div>
@@ -675,19 +672,19 @@
     <div class="basket-num">03</div>
     <div class="thumb-strip">
       <div class="thumb-item">
-        <img class="thumb-img" src="https://godox.com/static/upload/image/20210609/1623204910332851.png" alt="Godox SL100D" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Light'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61bW65wNlOL._AC_SX679_.jpg" alt="Godox SL100D">
         <div class="thumb-text"><div class="thumb-brand">Godox ×2</div><div class="thumb-name">SL100D LED Continuous</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://fujifilm-x.com/wp-content/uploads/2023/05/x-s20_thum.png" alt="Fujifilm X-S20" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Camera'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/71T8JvS8jTL._AC_SX679_.jpg" alt="Fujifilm X-S20">
         <div class="thumb-text"><div class="thumb-brand">Fujifilm</div><div class="thumb-name">X-S20 + 16-50mm f/2.8</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://fujifilm-x.com/wp-content/uploads/2022/05/xf18-120mmf4-lm-pz-wr_thum.png" alt="Fuji 18-120" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Lens2'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61vY+g5UbdL._AC_SX679_.jpg" alt="Fuji 18-120">
         <div class="thumb-text"><div class="thumb-brand">Fujifilm</div><div class="thumb-name">XF 18-120mm PZ</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://stormsend1.djicdn.com/stormsend/uploads/d3d0cf3c-5895-4eb8-b995-756608ec3964/cv3.png" alt="DJI RS3 Mini" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Gimbal'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61qH+9qV0wL._AC_SX679_.jpg" alt="DJI RS3 Mini">
         <div class="thumb-text"><div class="thumb-brand">DJI</div><div class="thumb-name">RS 3 Mini</div></div>
       </div>
     </div>
@@ -704,7 +701,7 @@
       <div class="detail-col">
         <div class="detail-cat">💡 Studio Lights</div>
         <div class="prod-img-wrap">
-          <img src="https://godox.com/static/upload/image/20210609/1623204910332851.png" alt="Godox SL100D" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/61bW65wNlOL._AC_SX679_.jpg" alt="Godox SL100D">
         </div>
         <div class="prod-name">2× Godox SL100D + 90cm Octa</div>
         <div class="prod-price">~₹28,000</div>
@@ -722,7 +719,7 @@
       <div class="detail-col">
         <div class="detail-cat">📷 Camera</div>
         <div class="prod-img-wrap">
-          <img src="https://fujifilm-x.com/wp-content/uploads/2023/05/x-s20_thum.png" alt="Fujifilm X-S20" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/71T8JvS8jTL._AC_SX679_.jpg" alt="Fujifilm X-S20">
         </div>
         <div class="prod-name">Fujifilm X-S20 + 16-50mm f/2.8<span class="badge">Best Colors</span></div>
         <div class="prod-price">~₹1,57,000 (kit)</div>
@@ -743,7 +740,7 @@
         <div class="lens-half">
           <div class="detail-cat">🔭 Lens 1 (in kit)</div>
           <div class="prod-img-wrap">
-            <img src="https://fujifilm-x.com/wp-content/uploads/2024/05/xf16-50mmf28-48-r-lm-wr_thum.png" alt="Fuji 16-50" onerror="this.style.display='none'">
+            <img src="https://m.media-amazon.com/images/I/61O+3P+pIOL._AC_SX679_.jpg" alt="Fuji 16-50">
           </div>
           <div class="prod-name">Fujifilm XF 16-50mm f/2.8-4.8</div>
           <div class="prod-price">Included in X-S20 kit</div>
@@ -756,7 +753,7 @@
         <div class="lens-half">
           <div class="detail-cat">🌿 Lens 2 — Nature</div>
           <div class="prod-img-wrap">
-            <img src="https://fujifilm-x.com/wp-content/uploads/2022/05/xf18-120mmf4-lm-pz-wr_thum.png" alt="Fuji 18-120mm PZ" onerror="this.style.display='none'">
+            <img src="https://m.media-amazon.com/images/I/61vY+g5UbdL._AC_SX679_.jpg" alt="Fuji 18-120mm PZ">
           </div>
           <div class="prod-name">Fujifilm XF 18-120mm f/4 PZ</div>
           <div class="prod-price">~₹65,000–₹70,000</div>
@@ -774,7 +771,7 @@
       <div class="detail-col">
         <div class="detail-cat">🎬 Gimbal</div>
         <div class="prod-img-wrap">
-          <img src="https://stormsend1.djicdn.com/stormsend/uploads/d3d0cf3c-5895-4eb8-b995-756608ec3964/cv3.png" alt="DJI RS3 Mini" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/61qH+9qV0wL._AC_SX679_.jpg" alt="DJI RS3 Mini">
         </div>
         <div class="prod-name">DJI RS 3 Mini</div>
         <div class="prod-price">~₹26,000</div>
@@ -804,23 +801,23 @@
     <div class="basket-num">04</div>
     <div class="thumb-strip">
       <div class="thumb-item">
-        <img class="thumb-img" src="https://neewer.com/cdn/shop/products/1_3a5c5c1d-151f-48d6-a212-9abebfc9ba63_1024x1024.jpg" alt="Neewer 200W LED" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Light'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/71Ewz1M+K8L._AC_SX679_.jpg" alt="Neewer 200W LED">
         <div class="thumb-text"><div class="thumb-brand">Neewer ×2</div><div class="thumb-name">200W Bi-Color LED</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://sony.scene7.com/is/image/sonyglobalsolutions/ILCE-6700_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony a6700" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Camera'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/81I35pSIT6L._AC_SX679_.jpg" alt="Sony a6700">
         <div class="thumb-text"><div class="thumb-brand">Sony</div><div class="thumb-name">a6700 Body</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://www.sigma-global.com/wp-content/uploads/2021/10/18-50_f28_dc_dn_c021_se_product_01-1.jpg" alt="Sigma 18-50" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Lens1'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61K5QeH1LHL._AC_SX679_.jpg" alt="Sigma 18-50">
         <div class="thumb-text"><div class="thumb-brand">Sigma</div><div class="thumb-name">18-50mm f/2.8</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://sony.scene7.com/is/image/sonyglobalsolutions/SEL18135_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony 18-135" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Lens2'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/81Wn2e6uE7L._AC_SX679_.jpg" alt="Sony 18-135">
         <div class="thumb-text"><div class="thumb-brand">Sony</div><div class="thumb-name">18-135mm OSS</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://store.hohem.com/cdn/shop/files/iSteady_MT2_Kit_1.png" alt="Hohem MT2" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Gimbal'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/71q5O1nI6AL._AC_SX679_.jpg" alt="Hohem MT2">
         <div class="thumb-text"><div class="thumb-brand">Hohem</div><div class="thumb-name">iSteady MT2 Kit</div></div>
       </div>
     </div>
@@ -837,7 +834,7 @@
       <div class="detail-col">
         <div class="detail-cat">💡 Studio Lights</div>
         <div class="prod-img-wrap">
-          <img src="https://neewer.com/cdn/shop/products/1_3a5c5c1d-151f-48d6-a212-9abebfc9ba63_1024x1024.jpg" alt="Neewer 200W" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/71Ewz1M+K8L._AC_SX679_.jpg" alt="Neewer 200W">
         </div>
         <div class="prod-name">2× Neewer 200W Bi-Color LED + Octa + Stand</div>
         <div class="prod-price">~₹24,000</div>
@@ -856,7 +853,7 @@
       <div class="detail-col">
         <div class="detail-cat">📷 Camera</div>
         <div class="prod-img-wrap">
-          <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/ILCE-6700_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony a6700" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/81I35pSIT6L._AC_SX679_.jpg" alt="Sony a6700">
         </div>
         <div class="prod-name">Sony a6700 Body Only</div>
         <div class="prod-price">~₹1,21,000</div>
@@ -874,7 +871,7 @@
         <div class="lens-half">
           <div class="detail-cat">🔭 Lens 1 — Studio</div>
           <div class="prod-img-wrap">
-            <img src="https://www.sigma-global.com/wp-content/uploads/2021/10/18-50_f28_dc_dn_c021_se_product_01-1.jpg" alt="Sigma 18-50" onerror="this.style.display='none'">
+            <img src="https://m.media-amazon.com/images/I/61K5QeH1LHL._AC_SX679_.jpg" alt="Sigma 18-50">
           </div>
           <div class="prod-name">Sigma 18-50mm f/2.8</div>
           <div class="prod-price">~₹35,000</div>
@@ -887,7 +884,7 @@
         <div class="lens-half">
           <div class="detail-cat">🌿 Lens 2 — Travel</div>
           <div class="prod-img-wrap">
-            <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/SEL18135_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony 18-135" onerror="this.style.display='none'">
+            <img src="https://m.media-amazon.com/images/I/81Wn2e6uE7L._AC_SX679_.jpg" alt="Sony 18-135">
           </div>
           <div class="prod-name">Sony 18-135mm f/3.5 OSS</div>
           <div class="prod-price">~₹32,000 (debundled)</div>
@@ -901,7 +898,7 @@
       <div class="detail-col">
         <div class="detail-cat">🎬 Gimbal</div>
         <div class="prod-img-wrap">
-          <img src="https://store.hohem.com/cdn/shop/files/iSteady_MT2_Kit_1.png" alt="Hohem MT2" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/71q5O1nI6AL._AC_SX679_.jpg" alt="Hohem MT2">
         </div>
         <div class="prod-name">Hohem iSteady MT2 Kit<span class="badge">AI Tracking</span></div>
         <div class="prod-price">~₹23,000–₹28,000</div>
@@ -934,23 +931,23 @@
     <div class="basket-num">05</div>
     <div class="thumb-strip">
       <div class="thumb-item">
-        <img class="thumb-img" src="https://godox.com/static/upload/image/20210609/1623204910332851.png" alt="Godox SL100D" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Light'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61bW65wNlOL._AC_SX679_.jpg" alt="Godox SL100D">
         <div class="thumb-text"><div class="thumb-brand">Godox ×2</div><div class="thumb-name">SL100D LED</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://sony.scene7.com/is/image/sonyglobalsolutions/ZV-E10M2_Primary_image?$categorypdp828$&fmt=png-alpha" alt="ZV-E10 II" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Camera'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/71j2N8+5o9L._AC_SX679_.jpg" alt="ZV-E10 II">
         <div class="thumb-text"><div class="thumb-brand">Sony</div><div class="thumb-name">ZV-E10 II</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://www.sigma-global.com/wp-content/uploads/2021/10/18-50_f28_dc_dn_c021_se_product_01-1.jpg" alt="Sigma 18-50" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Lens'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/61K5QeH1LHL._AC_SX679_.jpg" alt="Sigma 18-50">
         <div class="thumb-text"><div class="thumb-brand">Sigma</div><div class="thumb-name">18-50mm f/2.8</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://sony.scene7.com/is/image/sonyglobalsolutions/SEL18135_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony 18-135" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Lens2'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/81Wn2e6uE7L._AC_SX679_.jpg" alt="Sony 18-135">
         <div class="thumb-text"><div class="thumb-brand">Sony</div><div class="thumb-name">18-135mm OSS</div></div>
       </div>
       <div class="thumb-item">
-        <img class="thumb-img" src="https://zhiyun-website-oss.zhiyun-tech.com/product/weebill-3/weebill3-00.png" alt="Zhiyun Weebill 3" onerror="this.src='https://placehold.co/44x44/1a1a1c/888?text=Gimbal'">
+        <img class="thumb-img" src="https://m.media-amazon.com/images/I/71I2Yd2B-eL._AC_SX679_.jpg" alt="Zhiyun Weebill 3">
         <div class="thumb-text"><div class="thumb-brand">Zhiyun</div><div class="thumb-name">Weebill 3</div></div>
       </div>
     </div>
@@ -967,7 +964,7 @@
       <div class="detail-col">
         <div class="detail-cat">💡 Studio Lights</div>
         <div class="prod-img-wrap">
-          <img src="https://godox.com/static/upload/image/20210609/1623204910332851.png" alt="Godox SL100D" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/61bW65wNlOL._AC_SX679_.jpg" alt="Godox SL100D">
         </div>
         <div class="prod-name">2× Godox SL100D LED + Octa + Stand</div>
         <div class="prod-price">~₹28,000</div>
@@ -984,7 +981,7 @@
       <div class="detail-col">
         <div class="detail-cat">📷 Camera</div>
         <div class="prod-img-wrap">
-          <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/ZV-E10M2_Primary_image?$categorypdp828$&fmt=png-alpha" alt="ZV-E10 II" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/71j2N8+5o9L._AC_SX679_.jpg" alt="ZV-E10 II">
         </div>
         <div class="prod-name">Sony ZV-E10 II Body<span class="badge">Budget Smart</span></div>
         <div class="prod-price">~₹72,000–₹80,000 (body only)</div>
@@ -1007,7 +1004,7 @@
         <div class="lens-half">
           <div class="detail-cat">🔭 Lens 1 — Studio</div>
           <div class="prod-img-wrap">
-            <img src="https://www.sigma-global.com/wp-content/uploads/2021/10/18-50_f28_dc_dn_c021_se_product_01-1.jpg" alt="Sigma 18-50" onerror="this.style.display='none'">
+            <img src="https://m.media-amazon.com/images/I/61K5QeH1LHL._AC_SX679_.jpg" alt="Sigma 18-50">
           </div>
           <div class="prod-name">Sigma 18-50mm f/2.8</div>
           <div class="prod-price">~₹35,000</div>
@@ -1020,7 +1017,7 @@
         <div class="lens-half">
           <div class="detail-cat">🌿 Lens 2 — Travel</div>
           <div class="prod-img-wrap">
-            <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/SEL18135_Primary_image?$categorypdp828$&fmt=png-alpha" alt="Sony 18-135" onerror="this.style.display='none'">
+            <img src="https://m.media-amazon.com/images/I/81Wn2e6uE7L._AC_SX679_.jpg" alt="Sony 18-135">
           </div>
           <div class="prod-name">Sony 18-135mm f/3.5 OSS</div>
           <div class="prod-price">~₹32,000</div>
@@ -1034,7 +1031,7 @@
       <div class="detail-col">
         <div class="detail-cat">🎬 Gimbal</div>
         <div class="prod-img-wrap">
-          <img src="https://zhiyun-website-oss.zhiyun-tech.com/product/weebill-3/weebill3-00.png" alt="Zhiyun Weebill 3" onerror="this.style.display='none'">
+          <img src="https://m.media-amazon.com/images/I/71I2Yd2B-eL._AC_SX679_.jpg" alt="Zhiyun Weebill 3">
         </div>
         <div class="prod-name">Zhiyun Weebill 3</div>
         <div class="prod-price">~₹29,000–₹35,000</div>
