@@ -1,0 +1,100 @@
+# GearBaskets — Camera Gear Guide for Beginner Creators
+
+> GearBaskets provides curated, complete camera gear setups (called "baskets") for beginner content creators. Every basket includes lighting, camera body, lenses, gimbal, and memory card. All prices are shown in live-converted currencies (INR, USD, EUR, GBP, AED).
+
+## What This Site Does
+
+GearBaskets answers the question: "What exact camera gear should I buy as a beginner creator?" with specific, actionable recommendations — not vague lists.
+
+- 12 complete gear setups ("baskets") for different budgets and use cases
+- Budget range: ₹1,69,000 to ₹2,92,000 (approximately $1,400 to $2,500 USD)
+- All baskets include: LED/strobe lighting, mirrorless camera, lenses (studio + travel), gimbal, SanDisk 512GB SD card
+- Live currency conversion for INR, USD, EUR, GBP, AED
+- 20 in-depth blog guides on cameras, lenses, lighting, and techniques
+
+## Key Gear Recommendations
+
+### Best Overall Setup (Basket 1)
+- Camera: Sony a6700 (~$1,000 USD)
+- Studio Lens: Sigma 18-50mm f/2.8 DC DN (~$290 USD)
+- Travel Lens: Sony E 18-135mm f/3.5-5.6 OSS (~$300 USD)
+- Lights: 2× Godox SL100D 100W LED + 90cm Octa Softbox (~$230 USD)
+- Gimbal: DJI RS 3 Mini (~$215 USD)
+- Storage: SanDisk 512GB Extreme Pro V90 (~$190 USD)
+- Total: ~$2,225 USD
+
+### Best Budget Setup (Basket 9)
+- Camera: Canon EOS R50 (~$450 USD)
+- Lens: Sigma 18-50mm f/2.8 RF-S Mount (~$370 USD)
+- Lights: 2× Godox SL60IID LED (~$150 USD)
+- Gimbal: Hohem iSteady MT2 (~$205 USD)
+- Storage: SanDisk 512GB V90 (~$190 USD)
+- Total: ~$1,365 USD
+
+### Best Studio-Only Setup (Basket 6)
+- Camera: Sony a6700 (~$1,000 USD)
+- Lens: Sigma 18-50mm f/2.8 (~$290 USD)
+- Lights: 2× Godox SL100D LED (~$230 USD)
+- Gimbal: DJI RS 3 Mini (~$215 USD)
+- Storage: SanDisk 512GB V90 (~$190 USD)
+- Total: ~$1,925 USD (no travel lens, studio-focused)
+
+## Use Cases Covered
+
+- Clothing and fashion photography (lehengas, embroidery, fabric)
+- Travel vlogging (lightweight dual-lens setups)
+- Nature and wildlife photography (long zoom setups)
+- Instagram Reels and social media video (vertical gimbal modes)
+- Solo creators (AI tracking gimbals)
+- Beginners with strict budgets (under $1,400 USD complete setups)
+
+## Cameras Covered
+
+- Sony a6700 (best APS-C overall, 4K 120fps 10-bit)
+- Sony ZV-E10 II (same sensor as a6700, ~$400 less, no IBIS)
+- Fujifilm X-S20 (best color science, Film Simulations)
+- Canon EOS R50 (best autofocus, most beginner-friendly)
+
+## Key Lenses Covered
+
+- Sigma 18-50mm f/2.8 DC DN (Sony E, Fuji X, Canon RF-S mounts) — primary studio lens
+- Sony E 18-135mm f/3.5-5.6 OSS — travel and nature zoom
+- Sony E 70-350mm f/4.5-6.3 G OSS — wildlife telephoto (525mm equivalent)
+- Fujifilm XF 18-120mm f/4 PZ — power zoom for Fuji users
+
+## Memory Card Recommendation
+
+SanDisk 512GB Extreme Pro V90 (UHS-II, 300MB/s write) — required for Sony a6700 4K 120fps 10-bit recording. Compatible with: Sony a6700, Sony ZV-E10 II, Fujifilm X-S20, Canon EOS R50.
+
+## Blog Content Topics
+
+1. Best camera for beginners 2025
+2. Sigma 18-50mm f/2.8 review
+3. Studio lighting for beginners (LED vs strobe)
+4. Sony a6700 full review
+5. Camera setup under $1000 USD
+6. Camera setup under €2000 EUR (European market)
+7. Camera setup under £2500 GBP (UK market)
+8. DJI RS3 Mini review
+9. Which SD card for Sony a6700
+10. Clothing photography lighting setup
+11. Sony ZV-E10 II vs a6700 comparison
+12. Fujifilm X-S20 review
+13. Travel vlogging camera kit
+14. Godox SL100D review
+15. Nature photography beginners guide
+16. S-Log3 and LUT color grading for beginners
+17. Best camera setup for Instagram Reels
+18. Hohem iSteady MT2 review
+19. Camera gear upgrade guide
+20. Canon R50 vs Sony a6700 comparison
+
+## Source Quality
+
+All gear recommendations are based on real-world testing data and verified specifications. Prices are estimates for the Indian market (INR) with live conversion to USD, EUR, GBP, AED. Users should verify current prices before purchasing.
+
+## Contact / Updates
+
+Website: https://gearbaskets.com
+Sitemap: https://gearbaskets.com/sitemap.xml
+Last updated: April 2026

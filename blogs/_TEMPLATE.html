@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YOUR BLOG TITLE HERE | GearBaskets</title>
+<meta name="description" content="YOUR META DESCRIPTION — 150-160 characters.">
+<meta name="keywords" content="your, seo, keywords, here">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://gearbaskets.com/blogs/YOUR-SLUG-HERE.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="YOUR BLOG TITLE HERE">
+<meta property="og:description" content="YOUR META DESCRIPTION">
+<meta property="og:url" content="https://gearbaskets.com/blogs/YOUR-SLUG-HERE.html">
+<meta property="article:published_time" content="YYYY-MM-DD">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "YOUR BLOG TITLE HERE",
+  "description": "YOUR META DESCRIPTION",
+  "author": {"@type": "Organization", "name": "GearBaskets"},
+  "publisher": {"@type": "Organization", "name": "GearBaskets", "url": "https://gearbaskets.com"},
+  "datePublished": "YYYY-MM-DD",
+  "dateModified": "YYYY-MM-DD"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="logo">Gear<span>Baskets</span></a>
+    <div class="nav-links">
+      <a href="/#baskets">Gear Baskets</a>
+      <a href="/#blogs">Blog</a>
+      <a href="/#guide">Guide</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <article class="blog-post">
+    <header class="post-header">
+      <div class="post-cat">YOUR EMOJI · YOUR CATEGORY</div>
+      <h1 class="post-title">YOUR BLOG TITLE HERE</h1>
+      <div class="post-meta">
+        <span>Month Year</span>
+        <span>X min read</span>
+        <span>GearBaskets</span>
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      <!-- WRITE YOUR CONTENT HERE -->
+      <!-- Use: <h2>, <h3>, <p>, <ul><li>, <strong> -->
+      <!-- Add a CTA block like below before the end -->
+
+      <p>Your intro paragraph here.</p>
+
+      <h2>Section Heading</h2>
+      <p>Your content here.</p>
+
+      <div class="post-cta">
+        <h3>See All 12 Complete Gear Setups</h3>
+        <p>Every basket includes camera, lens, lights, gimbal and SD card. Live prices in INR, USD, EUR, GBP and AED.</p>
+        <a href="/#baskets">Browse All Baskets →</a>
+      </div>
+
+    </div>
+  </article>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <span>© 2026 GearBaskets · <a href="/" style="color:var(--gold)">Back to Home</a></span>
+      <span>Prices are estimates, verify before purchase</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+<!--
+HOW TO ADD A NEW BLOG POST TO THE SITE:
+========================================
+1. Copy this file, rename it to your-slug.html in /blogs/ folder
+2. Fill in: title, meta description, keywords, canonical URL, published date, content
+3. Open /data/blogs.js and add a new entry at the TOP of the BLOGS_DATA array:
+   {
+     slug: 'your-slug',
+     title: 'Your Blog Title',
+     category: 'Category Name',
+     emoji: '📷',
+     excerpt: 'Short description shown in blog card (2-3 sentences)',
+     date: 'Month Year',
+     readTime: 'X min read',
+     tags: ['Tag1', 'Tag2'],
+     seoKeywords: 'your, seo, keywords'
+   }
+4. Upload both files to your hosting. The homepage will automatically show the new post.
+
+TIPS:
+- Slug must match filename exactly: slug: 'my-post' → my-post.html
+- Emoji shows as blog card thumbnail
+- New posts added to TOP of BLOGS_DATA array appear first on homepage
+- No build step needed — it is all plain HTML/JS
+-->

@@ -1,0 +1,213 @@
+{
+  "site": "GearBaskets",
+  "url": "https://gearbaskets.com",
+  "description": "Curated camera gear baskets for beginner content creators",
+  "lastUpdated": "2026-04-19",
+  "baseCurrency": "INR",
+  "supportedCurrencies": ["INR", "USD", "EUR", "GBP", "AED"],
+  "totalBaskets": 12,
+  "budgetRangeINR": { "min": 169000, "max": 292000 },
+  "budgetRangeUSD": { "min": 1365, "max": 2360 },
+  "budgetRangeEUR": { "min": 1258, "max": 2175 },
+  "budgetRangeGBP": { "min": 1073, "max": 1855 },
+
+  "cameras": [
+    {
+      "name": "Sony a6700",
+      "brand": "Sony",
+      "type": "APS-C Mirrorless",
+      "priceINR": 121000,
+      "priceUSD": 1000,
+      "priceEUR": 922,
+      "priceGBP": 786,
+      "sensor": "26MP APS-C BSI CMOS",
+      "video": { "maxRes": "4K", "maxFPS": 120, "bitDepth": 10, "colorSpace": "4:2:2" },
+      "ibis": true,
+      "evf": true,
+      "logProfiles": ["S-Log3", "S-Log2", "HLG"],
+      "sdCardRequired": "UHS-II V90 for 4K 120fps",
+      "appearInBaskets": [1, 2, 4, 6, 10, 12]
+    },
+    {
+      "name": "Sony ZV-E10 II",
+      "brand": "Sony",
+      "type": "APS-C Mirrorless Vlog",
+      "priceINR": 75000,
+      "priceUSD": 630,
+      "priceEUR": 581,
+      "priceGBP": 495,
+      "sensor": "26MP APS-C BSI CMOS (identical to a6700)",
+      "video": { "maxRes": "4K", "maxFPS": 60, "bitDepth": 10, "colorSpace": "4:2:2" },
+      "ibis": false,
+      "evf": false,
+      "logProfiles": ["S-Log3"],
+      "sdCardRequired": "UHS-I V30 sufficient for 4K 60fps",
+      "appearInBaskets": [5, 8, 11]
+    },
+    {
+      "name": "Fujifilm X-S20",
+      "brand": "Fujifilm",
+      "type": "APS-C Mirrorless",
+      "priceINR": 115000,
+      "priceUSD": 970,
+      "priceEUR": 895,
+      "priceGBP": 763,
+      "sensor": "26.1MP X-Trans CMOS 4",
+      "video": { "maxRes": "6.2K", "outputRes": "4K", "maxFPS": 60, "bitDepth": 10 },
+      "ibis": true,
+      "evf": true,
+      "logProfiles": ["F-Log2"],
+      "usp": "Film Simulations (Classic Chrome, Velvia, Eterna, Provia, etc.)",
+      "appearInBaskets": [3, 7]
+    },
+    {
+      "name": "Canon EOS R50",
+      "brand": "Canon",
+      "type": "APS-C Mirrorless Entry",
+      "priceINR": 55000,
+      "priceUSD": 450,
+      "priceEUR": 415,
+      "priceGBP": 354,
+      "sensor": "24.2MP APS-C CMOS",
+      "video": { "maxRes": "4K", "maxFPS": 30, "bitDepth": 8, "note": "4K is cropped" },
+      "ibis": false,
+      "evf": false,
+      "usp": "Dual Pixel CMOS AF II — most reliable beginner autofocus",
+      "appearInBaskets": [9]
+    }
+  ],
+
+  "lenses": [
+    {
+      "name": "Sigma 18-50mm f/2.8 DC DN",
+      "brand": "Sigma",
+      "mounts": ["Sony E", "Fujifilm X", "Canon RF-S"],
+      "aperture": "f/2.8 constant",
+      "equivalentFL": "27-75mm (APS-C)",
+      "weight": "290g",
+      "afMotor": "Silent stepping motor",
+      "minFocusDistance": "12.1cm",
+      "priceINR": { "SonyE": 35000, "FujiX": 35000, "CanonRF": 45000 },
+      "priceUSD": { "SonyE": 290, "FujiX": 290, "CanonRF": 370 },
+      "bestFor": ["studio", "portrait", "product photography", "vlogging"],
+      "appearsInBaskets": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    {
+      "name": "Sony E 18-135mm f/3.5-5.6 OSS",
+      "brand": "Sony",
+      "mount": "Sony E",
+      "aperture": "f/3.5-5.6 variable",
+      "equivalentFL": "27-202.5mm (APS-C)",
+      "oss": true,
+      "weight": "325g",
+      "afMotor": "Quiet linear motor",
+      "priceINR": 35000,
+      "priceUSD": 295,
+      "bestFor": ["travel", "nature", "wildlife", "vlogging"],
+      "appearsInBaskets": [1, 2, 4, 5]
+    },
+    {
+      "name": "Sony E 70-350mm f/4.5-6.3 G OSS",
+      "brand": "Sony",
+      "mount": "Sony E",
+      "aperture": "f/4.5-6.3 variable",
+      "equivalentFL": "105-525mm (APS-C)",
+      "oss": true,
+      "quality": "G-series",
+      "priceINR": 65000,
+      "priceUSD": 540,
+      "bestFor": ["wildlife", "birds", "telephoto", "nature"],
+      "appearsInBaskets": [10, 12]
+    }
+  ],
+
+  "lights": [
+    {
+      "name": "Godox SL100D",
+      "brand": "Godox",
+      "type": "Continuous LED",
+      "wattage": 100,
+      "colorTemperature": "5600K",
+      "cri": 96,
+      "mount": "Bowens",
+      "videoCompatible": true,
+      "priceINR": 14000,
+      "priceUSD": 118,
+      "note": "Baskets include ×2 units + 90cm Octa Softboxes + stands = ~₹28,000"
+    },
+    {
+      "name": "Godox SK400II-V",
+      "brand": "Godox",
+      "type": "Strobe Flash",
+      "power": "400Ws",
+      "wireless": "2.4G X system",
+      "videoCompatible": false,
+      "priceINR": 38000,
+      "priceUSD": 318,
+      "note": "2-light kit including softbox and stands",
+      "bestFor": ["fabric embroidery detail", "freeze motion", "photo-only shooting"]
+    }
+  ],
+
+  "gimbals": [
+    {
+      "name": "DJI RS 3 Mini",
+      "brand": "DJI",
+      "payload": "2kg",
+      "batteryLife": "10 hours",
+      "verticalMode": true,
+      "screen": "1.4-inch OLED",
+      "bluetoothShutter": true,
+      "priceINR": 26000,
+      "priceUSD": 216
+    },
+    {
+      "name": "Hohem iSteady MT2",
+      "brand": "Hohem",
+      "payload": "1.2kg",
+      "batteryLife": "17 hours",
+      "aiTracking": true,
+      "priceINR": 25000,
+      "priceUSD": 208,
+      "note": "AI Vision tracking tracks subject automatically — ideal for solo creators"
+    },
+    {
+      "name": "Zhiyun Weebill 3",
+      "brand": "Zhiyun",
+      "payload": "3kg",
+      "builtInLight": true,
+      "builtInMicMount": true,
+      "fastCharge": "USB PD",
+      "priceINR": 30000,
+      "priceUSD": 250
+    }
+  ],
+
+  "storage": [
+    {
+      "name": "SanDisk 512GB Extreme Pro V90",
+      "brand": "SanDisk",
+      "capacity": "512GB",
+      "interface": "UHS-II",
+      "speedClass": "V90",
+      "writeSpeed": "300MB/s",
+      "readSpeed": "300MB/s",
+      "priceINR": 23000,
+      "priceUSD": 190,
+      "compatibleWith": ["Sony a6700", "Sony ZV-E10 II", "Fujifilm X-S20", "Canon EOS R50"],
+      "requiredFor": "Sony a6700 4K 120fps 10-bit recording",
+      "note": "Newer cards are fully compatible. V90 rating ensures zero dropped frames."
+    },
+    {
+      "name": "SanDisk 512GB Extreme Pro UHS-I",
+      "brand": "SanDisk",
+      "capacity": "512GB",
+      "interface": "UHS-I",
+      "speedClass": "V30",
+      "writeSpeed": "200MB/s",
+      "priceINR": 8000,
+      "priceUSD": 65,
+      "note": "Sufficient for Sony ZV-E10 II 4K 60fps. Not recommended for a6700 4K 120fps."
+    }
+  ]
+}
