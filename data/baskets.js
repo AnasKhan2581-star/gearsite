@@ -83,7 +83,7 @@ window.BASKETS_DATA = [
       { lbl: 'Gimbal', inr: 26000 },
       { lbl: '512GB V90', inr: 23000 }
     ],
-    verdict: '<strong>⭐ Why this is #1:</strong> The Sigma 18-50mm f/2.8 is your studio workhorse — bokeh, sharpness, silent AF. The Sony 18-135mm reaches 202mm for travel and nature. Godox SL100D LEDs shoot video without sync hassle. The a6700's 6K-oversampled 4K with S-Log3 will destroy iPhone footage after grading. SanDisk 512GB V90 ensures zero dropped frames. Covers every use case under ₹2.7L.'
+    verdict: '<strong>⭐ Why this is #1:</strong> The Sigma 18-50mm f/2.8 is your studio workhorse — bokeh, sharpness, silent AF. The Sony 18-135mm reaches 202mm for travel and nature. Godox SL100D LEDs shoot video without sync hassle. The a6700\'s 6K-oversampled 4K with S-Log3 will destroy iPhone footage after grading. SanDisk 512GB V90 ensures zero dropped frames. Covers every use case under ₹2.7L.'
   },
 
   {
